@@ -1,0 +1,52 @@
+2024-12-04 14:28:27,583 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-04 14:28:27,583 - Added job "trade_logic" to job store "default"
+2024-12-04 14:28:27,583 - Scheduler started
+2024-12-04 14:28:27,586 - Scheduler started.
+2024-12-04 14:33:27,595 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:33:27 KST)" (scheduled at 2024-12-04 14:33:27.582023+09:00)
+2024-12-04 14:33:32,164 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-12-04 14:33:32,210 - Model saved.
+2024-12-04 14:33:32,568 - Predicted price: 579.7533077239991
+2024-12-04 14:33:32,601 - Predicted: 579.7533077239991, Current: 586.9, Balance: 100000
+2024-12-04 14:33:32,601 - Mock Trade - Sell DOGE, Updated Balance: 129345.0
+2024-12-04 14:33:32,601 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:38:27 KST)" executed successfully
+2024-12-04 14:38:27,590 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:43:27 KST)" (scheduled at 2024-12-04 14:38:27.582023+09:00)
+2024-12-04 14:38:27,737 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-04 14:38:27,741 - Saved model loaded.
+2024-12-04 14:38:28,040 - Predicted price: 579.9135268688202
+2024-12-04 14:38:28,136 - Predicted: 579.9135268688202, Current: 586.5, Balance: 100000
+2024-12-04 14:38:28,136 - Mock Trade - Sell DOGE, Updated Balance: 129325.0
+2024-12-04 14:38:28,136 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:43:27 KST)" executed successfully
+2024-12-04 14:43:27,589 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:48:27 KST)" (scheduled at 2024-12-04 14:43:27.582023+09:00)
+2024-12-04 14:43:27,696 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-04 14:43:27,699 - Saved model loaded.
+2024-12-04 14:43:28,030 - Predicted price: 580.0319153547288
+2024-12-04 14:43:28,086 - Predicted: 580.0319153547288, Current: 585.0, Balance: 100000
+2024-12-04 14:43:28,086 - Mock Trade - Sell DOGE, Updated Balance: 129250.0
+2024-12-04 14:43:28,086 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:48:27 KST)" executed successfully
+2024-12-04 14:48:27,592 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:53:27 KST)" (scheduled at 2024-12-04 14:48:27.582023+09:00)
+2024-12-04 14:48:27,725 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-04 14:48:27,728 - Saved model loaded.
+2024-12-04 14:48:27,972 - Predicted price: 580.174393939972
+2024-12-04 14:48:28,002 - Predicted: 580.174393939972, Current: 586.0, Balance: 100000
+2024-12-04 14:48:28,002 - Mock Trade - Sell DOGE, Updated Balance: 129300.0
+2024-12-04 14:48:28,002 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:53:27 KST)" executed successfully
+2024-12-04 14:53:27,589 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:58:27 KST)" (scheduled at 2024-12-04 14:53:27.582023+09:00)
+2024-12-04 14:53:27,719 - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-12-04 14:53:27,722 - Saved model loaded.
+2024-12-04 14:53:28,055 - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001F352DB1040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-12-04 14:53:28,088 - Predicted price: 580.2805920362473
+2024-12-04 14:53:28,167 - Predicted: 580.2805920362473, Current: 585.7, Balance: 100000
+2024-12-04 14:53:28,167 - Mock Trade - Sell DOGE, Updated Balance: 129285.0
+2024-12-04 14:53:28,167 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 14:58:27 KST)" executed successfully
+2024-12-04 15:06:09,525 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-12-04 15:06:09,576 - Model saved.
+2024-12-04 15:06:09,595 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-04 15:06:09,595 - Added job "trade_logic" to job store "default"
+2024-12-04 15:06:09,596 - Scheduler started
+2024-12-04 15:06:09,597 - Scheduler started.
+2024-12-04 15:11:09,604 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:11:09 KST)" (scheduled at 2024-12-04 15:11:09.595298+09:00)
+2024-12-04 15:11:10,005 - Predicted price: 586.9394516229629
+2024-12-04 15:11:10,044 - Predicted: 586.9394516229629, Current: 585.4, Balance: 100000
+2024-12-04 15:11:10,044 - Mock Trade - Buy 5000 KRW, Remaining Balance: 95000
+2024-12-04 15:11:10,044 - Mock Trade - Sell DOGE, Updated Balance: 124270.0
+2024-12-04 15:11:10,044 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:16:09 KST)" executed successfully

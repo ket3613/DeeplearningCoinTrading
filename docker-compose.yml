@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  coin_trading_server:
+    image: python:3.9
+    container_name: coin_trading_server
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    environment:
+      - ACCESS_KEY=your-access-key
+      - SECRET_KEY=your-secret-key
+      - TRADE_MODE=mock  # 실거래(mock) 또는 모의 거래 설정(real)
+    depends_on:
+      - redis
+    restart: always
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    restart: always
+
+  scheduler:
+    image: python:3.9
+    container_name: scheduler
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: python scheduler.py
+    depends_on:
+      - coin_trading_server
+    restart: always
+
+networks:
+  default:
+    name: coin_trading_network

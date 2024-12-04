@@ -1,0 +1,16 @@
+upbit:
+  access_key: "p15NYClWulWehfS8cYieiitjlUWwUmRirC0wpjvR"
+  secret_key: "VLYKSaS1Yu2X4x2XP073LvhbD6FBtcVVU4jL7oD9"
+
+trading:
+  mode: "mock"  # "mock" 또는 "real" 설정 가능
+  target_profit: 0.02  # 목표 수익률 2%
+  max_investment: 5000  # 최대 투자 금액 (5000원)
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

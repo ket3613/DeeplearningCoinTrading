@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pyupbit
+tensorflow
+numpy
+pandas
+scikit-learn
+apscheduler
