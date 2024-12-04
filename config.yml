@@ -1,6 +1,6 @@
 upbit:
-  access_key: "p15NYClWulWehfS8cYieiitjlUWwUmRirC0wpjvR"
-  secret_key: "VLYKSaS1Yu2X4x2XP073LvhbD6FBtcVVU4jL7oD9"
+  access_key: "1111p15NYClWulWehfS8cYieiitjlUWwUmRirC0wpjvR1111"
+  secret_key: "1111VLYKSaS1Yu2X4x2XP073LvhbD6FBtcVVU4jL7oD91111"
 
 trading:
   mode: "mock"  # "mock" 또는 "real" 설정 가능

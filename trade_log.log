@@ -50,3 +50,21 @@
 2024-12-04 15:11:10,044 - Mock Trade - Buy 5000 KRW, Remaining Balance: 95000
 2024-12-04 15:11:10,044 - Mock Trade - Sell DOGE, Updated Balance: 124270.0
 2024-12-04 15:11:10,044 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:16:09 KST)" executed successfully
+2024-12-04 15:16:09,602 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:21:09 KST)" (scheduled at 2024-12-04 15:16:09.595298+09:00)
+2024-12-04 15:16:09,693 - Predicted price: 586.9345996260643
+2024-12-04 15:16:09,775 - Predicted: 586.9345996260643, Current: 585.5, Balance: 100000
+2024-12-04 15:16:09,775 - Mock Trade - Buy 5000 KRW, Remaining Balance: 95000
+2024-12-04 15:16:09,775 - Mock Trade - Sell DOGE, Updated Balance: 124275.0
+2024-12-04 15:16:09,775 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:21:09 KST)" executed successfully
+2024-12-04 15:21:09,597 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:26:09 KST)" (scheduled at 2024-12-04 15:21:09.595298+09:00)
+2024-12-04 15:21:09,698 - Predicted price: 587.1073718547821
+2024-12-04 15:21:09,734 - Predicted: 587.1073718547821, Current: 586.0, Balance: 100000
+2024-12-04 15:21:09,734 - Mock Trade - Buy 5000 KRW, Remaining Balance: 95000
+2024-12-04 15:21:09,734 - Mock Trade - Sell DOGE, Updated Balance: 124300.0
+2024-12-04 15:21:09,734 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:26:09 KST)" executed successfully
+2024-12-04 15:26:09,598 - Running job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:31:09 KST)" (scheduled at 2024-12-04 15:26:09.595298+09:00)
+2024-12-04 15:26:09,692 - Predicted price: 587.1372098207473
+2024-12-04 15:26:09,727 - Predicted: 587.1372098207473, Current: 585.6, Balance: 100000
+2024-12-04 15:26:09,727 - Mock Trade - Buy 5000 KRW, Remaining Balance: 95000
+2024-12-04 15:26:09,727 - Mock Trade - Sell DOGE, Updated Balance: 124280.0
+2024-12-04 15:26:09,727 - Job "trade_logic (trigger: interval[0:05:00], next run at: 2024-12-04 15:31:09 KST)" executed successfully
